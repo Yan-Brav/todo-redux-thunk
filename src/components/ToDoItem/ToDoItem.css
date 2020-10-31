@@ -1,0 +1,15 @@
+.todo-item {
+    background-color: yellow;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.todo-item.done {
+    background-color: green;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.todo-item .delete-btn {
+    float: right;
+}
