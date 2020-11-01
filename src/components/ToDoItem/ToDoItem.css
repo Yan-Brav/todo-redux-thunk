@@ -13,3 +13,8 @@
 .todo-item .delete-btn {
     float: right;
 }
+
+.delete-btn {
+    margin: 5px;
+    width: 20px;
+}

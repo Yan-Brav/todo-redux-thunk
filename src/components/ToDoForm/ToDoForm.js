@@ -3,8 +3,6 @@ import './ToDoForm.css'
 import {connect} from "react-redux";
 import {saveTodo} from "../../store/actions/todoActions";
 
-
-
 function ToDoForm({saveTodo}) {
 
 	const [title, setTitle] = useState('');

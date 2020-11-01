@@ -11,7 +11,7 @@ function App() {
 			<ToDoList />
 			<ToDoForm />
 		</div>
-	);
+	)
 }
 
 export default App;

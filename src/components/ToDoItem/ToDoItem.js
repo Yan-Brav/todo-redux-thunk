@@ -16,7 +16,7 @@ function ToDoItem({deleteTodo, updateTodo, item}) {
 			<div className='delete-btn'>
 					<span
 						onClick={()=>deleteTodo(item.id)}>
-						X
+						<i className="fa fa-trash"/>
 					</span>
 			</div>
 		</div>
